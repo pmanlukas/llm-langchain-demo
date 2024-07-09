@@ -8,6 +8,7 @@ venv/
 *.egg-info/
 dist/
 build/
+hooli-420412-ac2dfadd0927.json
 
 # Visual Studio Code
 .vscode/
