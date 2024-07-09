@@ -1,0 +1,58 @@
+# generate a gitignore file for python, venv, and vscode
+# https://www.toptal.com/developers/gitignore/api/python,venv,visualstudiocode
+
+# Python
+*.pyc
+__pycache__/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Visual Studio Code
+.vscode/
+.settings/
+
+# Virtual Environment
+.env/
+venv/
+ENV/
+
+# IDE specific
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Compiled source
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+ehthumbs.db
+Desktop.ini
+
+# User-specific files
+*.suo
+*.user
+*.sln.docstates
+*.bak
+*.swp
+*.swo
+*.tmp
+*.tmp.*
+*.~lock.*
+*~
