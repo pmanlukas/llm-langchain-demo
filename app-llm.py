@@ -12,7 +12,7 @@ llm2 = ChatOpenAI(model="gpt-3.5-turbo-0125", temperature=0)
 
 
 # Set the title of the Streamlit app
-st.title("SWR GPT - Demo")
+st.title("Own GPT - Demo")
 st.write("Chat with the LLM of your choice and switch between them by selecting the LLM instance from the radio button.")
 #add a line to seperate the title and the chat
 st.markdown("---")
