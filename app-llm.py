@@ -47,6 +47,7 @@ if prompt := st.chat_input("What is up?"):
         # Get all the messages from the session state and pass them to the call_llm function
         messages = [(m["role"], m["content"]) for m in st.session_state.messages]
         # Call the call_llm function and display the response in the chat UI
+        st.write(f"This answer is from {llm_selection}")
         response = st.write_stream(call_llm(messages))
     # Add the assistant's response to the session state
     st.session_state.messages.append({"role": "assistant", "content": response})
