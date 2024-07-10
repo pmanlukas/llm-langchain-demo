@@ -1,4 +1,4 @@
-# SWR GPT Demo
+#GPT Demo for Media Customer
 
 This demo allows you to chat with two powerful Large Language Models (LLMs):
 
